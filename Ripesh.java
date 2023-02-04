@@ -49,6 +49,11 @@ class Ripesh{
         }
         last.next= newnode;
     }
+    //inserting using recursion in a linked list 
+    public void insertrecursion(int data){
+
+    }
+
 
     public static void main(String[] args) {
         Ripesh r1 = new Ripesh();
@@ -57,7 +62,6 @@ class Ripesh{
         r1.insertfirst(43);
         r1.addlast(32);
         r1.display();
-        r1.deletenode(head, 1);
 
 
     }
